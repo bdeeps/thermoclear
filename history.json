@@ -1,0 +1,718 @@
+{
+  "title": "The history of the laws of thermodynamics",
+  "tagline": "From a warm glass bulb in Padua to atoms a few trillionths of a degree above absolute zero: 400 years of learning what heat is and where it can go.",
+  "intro": "For centuries people could feel hot and cold but could not measure them, and most thought heat was an invisible fluid. Engineers trying to build better steam engines, and a brewer with a paddle wheel, showed that heat is energy on the move and that it only flows one way by itself. Then physicists found a coldest possible cold, explained entropy by counting atoms, and discovered that even forgetting information gives off heat.",
+  "eras": [
+    {
+      "id": "measure",
+      "name": "Measuring hot and cold",
+      "from": 1593,
+      "to": 1765,
+      "color": "#c49bff",
+      "summary": "People learn to see heat with glass tubes, agree on scales with fixed points, and discover that heat and temperature are not the same thing."
+    },
+    {
+      "id": "motion",
+      "name": "Heat engines and heat as motion",
+      "from": 1798,
+      "to": 1848,
+      "color": "#8ef0ff",
+      "summary": "Cannons, steam engines and paddle wheels show that heat can be made from work and work from heat, and that there is a coldest possible cold."
+    },
+    {
+      "id": "entropy",
+      "name": "Entropy and statistics",
+      "from": 1850,
+      "to": 1878,
+      "color": "#ffb547",
+      "summary": "Clausius and Kelvin write down the first and second laws, entropy gets its name, and Maxwell, Boltzmann and Gibbs explain it by counting molecules."
+    },
+    {
+      "id": "cold",
+      "name": "The cold frontier",
+      "from": 1906,
+      "to": 1939,
+      "color": "#5ce1a9",
+      "summary": "Helium is turned into a liquid, Nernst finds the third law about absolute zero, and the most basic law of all finally gets a name."
+    },
+    {
+      "id": "info",
+      "name": "Information and the quantum cold",
+      "from": 1961,
+      "to": 2012,
+      "color": "#ff7eb6",
+      "summary": "Wiping out a bit of information turns out to cost heat, and atoms are cooled to billionths of a degree above absolute zero."
+    }
+  ],
+  "events": [
+    {
+      "year": 1593,
+      "date": "c. 1593 (Viviani says 1597)",
+      "era": "measure",
+      "art": "flask",
+      "key": true,
+      "title": "A glass bulb that shows heat",
+      "who": "Galileo Galilei",
+      "where": "Padua, Republic of Venice",
+      "country": "Italy",
+      "text": "Galileo warmed a glass bulb with a long neck in his hands and stood it upside down in water. As the air inside cooled, water crept up the neck. The rise and fall showed that something was getting hotter or colder, but it had no numbers on it.",
+      "why": "It was one of the first instruments to make heat visible, the ancestor of every thermometer.",
+      "box": "",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "year": 1714,
+      "date": "1714 and 1724",
+      "era": "measure",
+      "art": "thermometer",
+      "title": "Mercury and a scale everyone could share",
+      "who": "Daniel Gabriel Fahrenheit",
+      "where": "Amsterdam, Dutch Republic",
+      "country": "Netherlands",
+      "text": "Fahrenheit, a glassblower born in Danzig, made reliable thermometers, first with alcohol and by 1714 with mercury. In 1724 he described his scale to the Royal Society in London. Two of his thermometers made in the same way gave the same reading.",
+      "why": "For the first time, people in different places could compare temperatures as numbers.",
+      "box": "",
+      "sources": [
+        3,
+        1
+      ]
+    },
+    {
+      "year": 1742,
+      "date": "1742",
+      "era": "measure",
+      "art": "waterdrop",
+      "title": "A hundred steps, upside down",
+      "who": "Anders Celsius",
+      "where": "Uppsala, Sweden",
+      "country": "Sweden",
+      "text": "Celsius showed that melting snow always sits at the same temperature, and so does boiling water at a fixed air pressure. He split the gap into 100 steps. But he put 0 at boiling and 100 at freezing. Soon after his death in 1744 the scale was flipped the right way up.",
+      "why": "Two fixed points and 100 steps gave the world the scale most people use today.",
+      "box": "",
+      "sources": [
+        4,
+        1
+      ]
+    },
+    {
+      "year": 1761,
+      "date": "c. 1761–1762",
+      "era": "measure",
+      "art": "ice",
+      "title": "Heat that hides inside melting ice",
+      "who": "Joseph Black",
+      "where": "Glasgow, Scotland",
+      "country": "United Kingdom",
+      "text": "Black noticed that ice melting in a warm room stays at the same temperature for a long time, even though it keeps soaking up heat. He called this hidden heat latent heat. He also found that the same amount of heat warms different materials by different amounts, which we now call specific heat.",
+      "why": "It showed that heat and temperature are two different things.",
+      "box": "heatclear",
+      "sources": [
+        5,
+        1
+      ]
+    },
+    {
+      "year": 1798,
+      "date": "Read 25 January 1798",
+      "era": "motion",
+      "art": "heatwaves",
+      "title": "Boiling water by boring cannons",
+      "who": "Benjamin Thompson, Count Rumford",
+      "where": "Munich arsenal, Bavaria",
+      "country": "Germany",
+      "text": "Rumford was in charge of drilling out brass cannons. He saw that the blunt drill made heat for as long as the horses kept turning it, enough to boil water in a few hours. Heat that never runs out could not be a fluid stored in the metal, he argued. It had to come from the motion.",
+      "why": "It was strong evidence that heat is a kind of motion, not a substance.",
+      "box": "energyclear",
+      "sources": [
+        6,
+        1
+      ]
+    },
+    {
+      "year": 1824,
+      "date": "1824",
+      "era": "motion",
+      "art": "engine",
+      "key": true,
+      "title": "The perfect engine on paper",
+      "who": "Sadi Carnot",
+      "where": "Paris",
+      "country": "France",
+      "text": "A young French engineer wrote a short book called Reflections on the Motive Power of Fire. He imagined a perfect engine and showed that the work it can give depends only on how hot its hot side is and how cold its cold side is. Few people read it at the time, and Carnot died of cholera in 1832.",
+      "why": "It set a limit on every engine ever built, and it became the seed of the second law.",
+      "box": "carclear",
+      "sources": [
+        7,
+        1
+      ]
+    },
+    {
+      "year": 1834,
+      "date": "1834",
+      "era": "motion",
+      "art": "piston",
+      "title": "Drawing an engine as a loop",
+      "who": "Émile Clapeyron",
+      "where": "Paris",
+      "country": "France",
+      "text": "Clapeyron rewrote Carnot's ideas in mathematics. He drew the engine's cycle as a closed loop on a graph of pressure against volume, and the area inside the loop is the work done. That is how Carnot's forgotten book reached Kelvin and Clausius.",
+      "why": "The pressure-volume diagram is still how engineers picture engines today.",
+      "box": "gaslawclear",
+      "sources": [
+        8,
+        1
+      ]
+    },
+    {
+      "year": 1845,
+      "date": "1843–1850",
+      "era": "motion",
+      "art": "gear",
+      "key": true,
+      "title": "Paddle wheels and the price of heat",
+      "who": "James Prescott Joule",
+      "where": "Manchester, England",
+      "country": "United Kingdom",
+      "text": "Joule, from a brewing family, let falling weights spin a paddle wheel in water and measured how much warmer the water got. Over years of careful work he showed that the same amount of work always makes the same amount of heat. In Germany, Julius Robert Mayer had argued for the same idea in 1842.",
+      "why": "Heat and work turned out to be one thing, energy, which led straight to the first law.",
+      "box": "energyclear",
+      "sources": [
+        9,
+        10
+      ]
+    },
+    {
+      "year": 1848,
+      "date": "1848",
+      "era": "motion",
+      "art": "thermometer",
+      "title": "A scale that starts at absolute zero",
+      "who": "William Thomson (later Lord Kelvin)",
+      "where": "Glasgow, Scotland",
+      "country": "United Kingdom",
+      "text": "Thomson, aged 24, used Carnot's ideas to propose a temperature scale that does not depend on any one liquid or gas. It starts at an absolute zero, the coldest anything can ever be, which works out to about minus 273 degrees Celsius. We now measure it in kelvins, named after him.",
+      "why": "Temperature got a true zero, which later made the third law possible.",
+      "box": "",
+      "sources": [
+        11,
+        1
+      ]
+    },
+    {
+      "year": 1850,
+      "date": "1850",
+      "era": "entropy",
+      "art": "quill",
+      "key": true,
+      "title": "The first and second laws, written down",
+      "who": "Rudolf Clausius",
+      "where": "Berlin, Prussia",
+      "country": "Germany",
+      "text": "Clausius showed that Carnot and Joule were both right. Energy is never lost, only changed, which is the first law. And heat does not flow by itself from something cold to something hot, which is the heart of the second law.",
+      "why": "It is widely seen as the birth of thermodynamics as a science.",
+      "box": "heatclear",
+      "sources": [
+        12,
+        0
+      ]
+    },
+    {
+      "year": 1851,
+      "date": "March 1851",
+      "era": "entropy",
+      "art": "nib",
+      "title": "No engine can use all its heat",
+      "who": "William Thomson (later Lord Kelvin)",
+      "where": "Royal Society of Edinburgh, Scotland",
+      "country": "United Kingdom",
+      "text": "Thomson gave his own version of the second law. No engine working in a cycle can take heat from one place and turn all of it into work. Some heat must always be passed to something colder.",
+      "why": "It explains why every car engine and power station has to throw heat away.",
+      "box": "carclear",
+      "sources": [
+        11,
+        0
+      ]
+    },
+    {
+      "year": 1865,
+      "date": "1865",
+      "era": "entropy",
+      "art": "word",
+      "key": true,
+      "title": "A new word: entropy",
+      "who": "Rudolf Clausius",
+      "where": "Zürich",
+      "country": "Switzerland",
+      "text": "Clausius needed a name for the quantity that always grows when heat spreads out. He built the word entropy from the Greek for transformation, and chose it to sound like energy. He summed up: the energy of the universe stays the same, and its entropy tends to a maximum.",
+      "why": "Entropy gave the second law a number you can calculate.",
+      "box": "",
+      "sources": [
+        12,
+        0
+      ]
+    },
+    {
+      "year": 1867,
+      "date": "11 December 1867",
+      "era": "entropy",
+      "art": "person",
+      "title": "A tiny being who sorts molecules",
+      "who": "James Clerk Maxwell",
+      "where": "Scotland",
+      "country": "United Kingdom",
+      "text": "In a letter to his friend Peter Guthrie Tait, Maxwell imagined a tiny being guarding a door between two boxes of gas. It lets fast molecules through one way and slow ones the other, so one side gets hot and the other cold without any work. Maxwell made it public in his book Theory of Heat in the early 1870s, and Kelvin later nicknamed it a demon.",
+      "why": "It showed that the second law is about probability, and the puzzle took about a century to solve.",
+      "box": "",
+      "sources": [
+        14,
+        13
+      ]
+    },
+    {
+      "year": 1876,
+      "date": "1875–1878",
+      "era": "entropy",
+      "art": "scroll",
+      "title": "The rules for mixtures and changes",
+      "who": "Josiah Willard Gibbs",
+      "where": "New Haven, Connecticut",
+      "country": "United States",
+      "text": "Gibbs, a quiet professor at Yale, published a very long paper called On the Equilibrium of Heterogeneous Substances in a small local journal. It used energy and entropy to predict when chemicals react, when ice melts and when mixtures separate. It took Europe years to notice.",
+      "why": "It turned thermodynamics into a tool for chemistry and materials science.",
+      "box": "",
+      "sources": [
+        16,
+        1
+      ]
+    },
+    {
+      "year": 1877,
+      "date": "1877",
+      "era": "entropy",
+      "art": "molecule",
+      "key": true,
+      "title": "Entropy is counting",
+      "who": "Ludwig Boltzmann",
+      "where": "Graz, Austria",
+      "country": "Austria",
+      "text": "Boltzmann showed that entropy measures how many ways the tiny particles of a thing can be arranged and still look the same from outside. Messy arrangements vastly outnumber tidy ones, so things drift towards mess. Max Planck later wrote it as S = k log W, around 1900, and that formula is carved on Boltzmann's grave in Vienna.",
+      "why": "It explained the second law using atoms, before most scientists believed atoms were real.",
+      "box": "",
+      "sources": [
+        15,
+        0
+      ]
+    },
+    {
+      "year": 1906,
+      "date": "1906–1912",
+      "era": "cold",
+      "art": "snowflake",
+      "key": true,
+      "title": "The third law: you can never reach absolute zero",
+      "who": "Walther Nernst",
+      "where": "Berlin",
+      "country": "Germany",
+      "text": "Nernst studied chemical reactions at lower and lower temperatures. In 1906 he proposed his heat theorem: as things approach absolute zero, their entropy changes shrink towards nothing. By 1912 he argued it also means no process can ever reach absolute zero in a finite number of steps.",
+      "why": "It became the third law, and it won Nernst the 1920 Nobel Prize in Chemistry.",
+      "box": "",
+      "sources": [
+        17,
+        18
+      ]
+    },
+    {
+      "year": 1908,
+      "date": "10 July 1908",
+      "era": "cold",
+      "art": "compressor",
+      "title": "Liquid helium, 4 degrees above zero",
+      "who": "Heike Kamerlingh Onnes",
+      "where": "Leiden",
+      "country": "Netherlands",
+      "text": "After years of building ever better coolers, Onnes turned helium gas into a liquid at about 4.2 kelvin. By pumping on the liquid he got down to about 1.5 kelvin, the coldest place on Earth at the time. Three years later his team found that mercury loses all electrical resistance when it is this cold.",
+      "why": "It opened the door to the science of the very cold, and won him the 1913 Nobel Prize in Physics.",
+      "box": "",
+      "sources": [
+        19,
+        20
+      ]
+    },
+    {
+      "year": 1939,
+      "date": "1930s (in print 1939)",
+      "era": "cold",
+      "art": "scales",
+      "title": "The law that came first gets named last",
+      "who": "Ralph Fowler, with Edward Guggenheim",
+      "where": "Cambridge, England",
+      "country": "United Kingdom",
+      "text": "If A is as warm as B, and B is as warm as C, then A is as warm as C. This is why thermometers work, but nobody had called it a law. Fowler did in the 1930s, and it appeared in his 1939 book with Guggenheim. The other laws already had numbers, so it became the zeroth law.",
+      "why": "It made the idea of temperature itself part of the rules.",
+      "box": "",
+      "sources": [
+        21,
+        0
+      ]
+    },
+    {
+      "year": 1961,
+      "date": "1961 (tested 2012)",
+      "era": "info",
+      "art": "chip",
+      "title": "Forgetting costs energy",
+      "who": "Rolf Landauer; tested by Antoine Bérut and colleagues",
+      "where": "IBM, New York; tested in Lyon, France",
+      "country": "United States",
+      "text": "Landauer, a physicist at IBM, argued that erasing one bit of information must release a tiny minimum amount of heat. That link between information and entropy helped Charles Bennett explain in 1982 why Maxwell's demon cannot break the second law. In 2012 a team in Lyon trapped a single tiny bead with a laser and measured the heat, and it matched Landauer's limit.",
+      "why": "It showed that information is physical, and it sets a floor on how little energy computers can use.",
+      "box": "",
+      "sources": [
+        22,
+        23,
+        13
+      ]
+    },
+    {
+      "year": 1995,
+      "date": "5 June 1995",
+      "era": "info",
+      "art": "wave",
+      "title": "Atoms colder than anything in nature",
+      "who": "Eric Cornell and Carl Wieman",
+      "where": "JILA, Boulder, Colorado",
+      "country": "United States",
+      "text": "Cornell and Wieman cooled a cloud of rubidium atoms to about 170 billionths of a degree above absolute zero. The atoms merged into one quantum blob, a Bose–Einstein condensate. It had been predicted 70 years earlier by Satyendra Nath Bose in India and Albert Einstein. Wolfgang Ketterle made one soon after, and all three shared the 2001 Nobel Prize in Physics.",
+      "why": "It showed how close to absolute zero we can get, while never quite reaching it.",
+      "box": "",
+      "sources": [
+        24,
+        25
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Instrument that shows hot and cold",
+      "value": "c. 1593",
+      "who": "Galileo Galilei, Padua, Italy"
+    },
+    {
+      "label": "Reliable mercury thermometer",
+      "value": "1714",
+      "who": "Daniel Gabriel Fahrenheit, Amsterdam"
+    },
+    {
+      "label": "Theory of the ideal heat engine",
+      "value": "1824",
+      "who": "Sadi Carnot, France"
+    },
+    {
+      "label": "First and second laws stated together",
+      "value": "1850",
+      "who": "Rudolf Clausius, Germany"
+    },
+    {
+      "label": "Liquid oxygen",
+      "value": "1877",
+      "who": "Louis Paul Cailletet and Raoul Pictet, France and Switzerland"
+    },
+    {
+      "label": "Liquid helium",
+      "value": "1908",
+      "who": "Heike Kamerlingh Onnes, Leiden, Netherlands"
+    },
+    {
+      "label": "Temperature below 1 kelvin",
+      "value": "1933",
+      "who": "William Giauque and Duncan MacDougall, Berkeley, USA"
+    },
+    {
+      "label": "Bose–Einstein condensate",
+      "value": "1995",
+      "who": "Eric Cornell and Carl Wieman, Boulder, USA"
+    }
+  ],
+  "people": [
+    {
+      "name": "Joseph Black",
+      "life": "1728 – 1799",
+      "role": "Chemist and physician",
+      "from": "Scotland",
+      "note": "Showed that melting and boiling soak up hidden heat without getting hotter."
+    },
+    {
+      "name": "Sadi Carnot",
+      "life": "1796 – 1832",
+      "role": "Engineer",
+      "from": "France",
+      "note": "Wrote one short book about steam engines that founded a whole science."
+    },
+    {
+      "name": "James Prescott Joule",
+      "life": "1818 – 1889",
+      "role": "Brewer and physicist",
+      "from": "England",
+      "note": "Measured how much work makes how much heat, and the unit of energy is named after him."
+    },
+    {
+      "name": "Rudolf Clausius",
+      "life": "1822 – 1888",
+      "role": "Physicist",
+      "from": "Prussia (now Germany and Poland)",
+      "note": "Stated the first and second laws and invented the word entropy."
+    },
+    {
+      "name": "William Thomson, Lord Kelvin",
+      "life": "1824 – 1907",
+      "role": "Physicist and engineer",
+      "from": "Belfast, Ireland, then Glasgow",
+      "note": "Gave us absolute zero and the temperature scale that starts there."
+    },
+    {
+      "name": "Josiah Willard Gibbs",
+      "life": "1839 – 1903",
+      "role": "Physicist and chemist",
+      "from": "USA",
+      "note": "Turned thermodynamics into the working rules of chemistry."
+    },
+    {
+      "name": "Ludwig Boltzmann",
+      "life": "1844 – 1906",
+      "role": "Physicist",
+      "from": "Austria",
+      "note": "Explained entropy by counting the ways atoms can be arranged."
+    },
+    {
+      "name": "Walther Nernst",
+      "life": "1864 – 1941",
+      "role": "Chemist",
+      "from": "Germany",
+      "note": "Found the third law about the approach to absolute zero."
+    },
+    {
+      "name": "Heike Kamerlingh Onnes",
+      "life": "1853 – 1926",
+      "role": "Physicist",
+      "from": "Netherlands",
+      "note": "Made helium liquid and discovered superconductivity."
+    },
+    {
+      "name": "Satyendra Nath Bose",
+      "life": "1894 – 1974",
+      "role": "Physicist",
+      "from": "India",
+      "note": "His 1924 counting of light particles led to the prediction of the Bose–Einstein condensate."
+    }
+  ],
+  "series": [
+    {
+      "id": "coldest",
+      "title": "The lowest temperatures reached in a lab",
+      "unit": "kelvin",
+      "log": true,
+      "after": "info",
+      "caption": "Each step is a new way of getting colder. The line keeps falling but can never touch zero, just as the third law says.",
+      "points": [
+        {
+          "year": 1877,
+          "value": 90,
+          "label": "Cailletet and Pictet: first liquid oxygen, which boils at about 90 K"
+        },
+        {
+          "year": 1898,
+          "value": 20,
+          "label": "James Dewar: liquid hydrogen, about 20 K"
+        },
+        {
+          "year": 1908,
+          "value": 1.5,
+          "label": "Kamerlingh Onnes: liquid helium pumped down to about 1.5 K"
+        },
+        {
+          "year": 1933,
+          "value": 0.25,
+          "label": "Giauque and MacDougall: magnetic cooling to 0.25 K"
+        },
+        {
+          "year": 1995,
+          "value": 1.7e-07,
+          "label": "Cornell and Wieman: first Bose–Einstein condensate, about 170 nK"
+        },
+        {
+          "year": 2003,
+          "value": 4.5e-10,
+          "label": "Ketterle's MIT team: about 450 picokelvin"
+        },
+        {
+          "year": 2021,
+          "value": 3.8e-11,
+          "label": "Bremen drop tower team (published 2021): 38 picokelvin"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "Celsius's first scale ran backwards: water boiled at 0 and froze at 100.",
+    "Maxwell never called his tiny being a demon. Kelvin gave it that nickname in 1874.",
+    "The zeroth law was named after the first, second and third laws, so it had to take the number before one.",
+    "Boltzmann's grave in Vienna carries S = k log W, though it was Planck who first wrote it in that form.",
+    "Since 20 May 2019 the kelvin has been defined by fixing the Boltzmann constant at exactly 1.380649 × 10⁻²³ joules per kelvin.",
+    "The coldest atoms made in a lab, at 38 trillionths of a kelvin, were about 70 billion times colder than deep space."
+  ],
+  "sources": [
+    {
+      "title": "Laws of thermodynamics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Laws_of_thermodynamics"
+    },
+    {
+      "title": "Timeline of thermodynamics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_thermodynamics"
+    },
+    {
+      "title": "Thermoscope",
+      "publisher": "Museo Galileo, Florence",
+      "url": "https://catalogue.museogalileo.it/object/Thermoscope.html"
+    },
+    {
+      "title": "Daniel Gabriel Fahrenheit",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Daniel_Gabriel_Fahrenheit"
+    },
+    {
+      "title": "Anders Celsius",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anders_Celsius"
+    },
+    {
+      "title": "Joseph Black",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Black"
+    },
+    {
+      "title": "An Inquiry concerning the Source of the Heat Which Is Excited by Friction (Rumford, 1798)",
+      "publisher": "Philosophical Transactions of the Royal Society",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rstl.1798.0006"
+    },
+    {
+      "title": "Sadi Carnot",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Sadi-Carnot"
+    },
+    {
+      "title": "Benoît Paul Émile Clapeyron",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Beno%C3%AEt_Paul_%C3%89mile_Clapeyron"
+    },
+    {
+      "title": "Mechanical equivalent of heat",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mechanical_equivalent_of_heat"
+    },
+    {
+      "title": "James Prescott Joule",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/James-Prescott-Joule"
+    },
+    {
+      "title": "William Thomson, Baron Kelvin",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/William-Thomson-Baron-Kelvin"
+    },
+    {
+      "title": "Rudolf Clausius",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Rudolf-Clausius"
+    },
+    {
+      "title": "Maxwell's demon",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maxwell%27s_demon"
+    },
+    {
+      "title": "Letter from Maxwell to Tait on Maxwell's demon, 11 December 1867",
+      "publisher": "Cambridge Digital Library (Cavendish Laboratory)",
+      "url": "https://cudl.lib.cam.ac.uk/view/PH-CAVENDISH-P-00092/1"
+    },
+    {
+      "title": "Boltzmann's entropy formula",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boltzmann%27s_entropy_formula"
+    },
+    {
+      "title": "Josiah Willard Gibbs",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Josiah_Willard_Gibbs"
+    },
+    {
+      "title": "Walther Nernst: facts",
+      "publisher": "The Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1920/nernst/facts/"
+    },
+    {
+      "title": "Third law of thermodynamics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Third_law_of_thermodynamics"
+    },
+    {
+      "title": "Heike Kamerlingh Onnes: facts",
+      "publisher": "The Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/physics/1913/onnes/facts/"
+    },
+    {
+      "title": "Liquid helium",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liquid_helium"
+    },
+    {
+      "title": "Zeroth law of thermodynamics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zeroth_law_of_thermodynamics"
+    },
+    {
+      "title": "Landauer's principle",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Landauer%27s_principle"
+    },
+    {
+      "title": "Experimental verification of Landauer's principle linking information and thermodynamics (Bérut et al., 2012)",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/nature10872"
+    },
+    {
+      "title": "The Nobel Prize in Physics 2001: press release",
+      "publisher": "The Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/physics/2001/press-release/"
+    },
+    {
+      "title": "Timeline of low-temperature technology",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_low-temperature_technology"
+    },
+    {
+      "title": "Attainment of Temperatures Below 1° Absolute by Demagnetization of Gd2(SO4)3·8H2O (Giauque and MacDougall, 1933)",
+      "publisher": "Physical Review",
+      "url": "https://doi.org/10.1103/PhysRev.43.768"
+    },
+    {
+      "title": "Cooling Bose-Einstein Condensates Below 500 Picokelvin (Leanhardt et al., 2003)",
+      "publisher": "Science",
+      "url": "https://www.science.org/doi/abs/10.1126/science.1088827"
+    },
+    {
+      "title": "Collective-Mode Enhanced Matter-Wave Optics (Deppner et al., 2021)",
+      "publisher": "Physical Review Letters",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.127.100401"
+    },
+    {
+      "title": "SI base unit: kelvin (K)",
+      "publisher": "BIPM",
+      "url": "https://www.bipm.org/en/si-base-units/kelvin"
+    }
+  ]
+}

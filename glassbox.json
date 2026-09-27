@@ -1,0 +1,170 @@
+{
+  "slug": "thermoclear",
+  "kind": "principle",
+  "box": 5,
+  "date": "2026-09-27",
+  "title": "The laws of thermodynamics",
+  "question": "What are the laws of thermodynamics?",
+  "principle": {
+    "type": "law",
+    "name": "The laws of thermodynamics",
+    "formula": "ΔU = Q − W",
+    "formulaNote": "change in a thing's internal energy = heat put in − work it does; heat flows by itself only from hot to cold, so total entropy never falls (ΔS ≥ 0)",
+    "idea": "Heat always flows from hot to cold by itself, and energy is never lost: heat you put into something either warms it or lets it do work. Because of this, no engine can turn all its heat into work, and nothing can ever be cooled all the way to absolute zero.",
+    "discovered": "1824–1912 · Sadi Carnot (1824, France), Rudolf Clausius and William Thomson, Lord Kelvin (1850–1851, Germany and Britain), Ludwig Boltzmann (1877, Austria) and Walther Nernst (1906–1912, Germany)",
+    "art": "thermometer",
+    "appliesTo": [
+      "carclear",
+      "motorcycleclear",
+      "acclear",
+      "fridgeclear",
+      "chimneyclear",
+      "airfryerclear",
+      "waterheaterclear",
+      "microwaveclear"
+    ],
+    "examples": [
+      {
+        "title": "A car engine and the Carnot limit",
+        "text": "Burning gas at about 2,500 K and outside air at 300 K would let a perfect engine turn 88% of the heat into work. Real petrol engines manage 25–35%; the rest leaves through the exhaust and the radiator.",
+        "box": "carclear"
+      },
+      {
+        "title": "A motorbike's cooling fins",
+        "text": "Every heat engine must dump heat into something colder. On an air-cooled motorbike you can see where it goes: into the fins on the cylinder and the air rushing past.",
+        "box": "motorcycleclear"
+      },
+      {
+        "title": "An AC pumps heat uphill",
+        "text": "A 1.5-ton AC carries about 5.3 kW of heat from a 24 °C room out to 35 °C air using roughly 1.3 kW of electricity, and the outdoor unit blows out the sum. Moving heat from cold to hot always costs work.",
+        "box": "acclear"
+      },
+      {
+        "title": "A fridge doesn't make cold",
+        "text": "It moves heat out of 4 °C food and dumps it, plus its own electricity, from the coil at the back. Leave the door open in a closed kitchen and the kitchen gets warmer.",
+        "box": "fridgeclear"
+      },
+      {
+        "title": "The hob and the chimney",
+        "text": "An LPG flame at about 1,950 °C heats a pot of water that can't pass 100 °C, and the kitchen sits at 30 °C. Heat only runs down this staircase; the flue gas that misses the pot rises into the hood.",
+        "box": "chimneyclear"
+      },
+      {
+        "title": "Hot air into cold chips",
+        "text": "An air fryer blows 200 °C air past chips at room temperature, so heat flows into the food. The inside of each chip stays near 100 °C while its water boils away.",
+        "box": "airfryerclear"
+      },
+      {
+        "title": "A geyser's standing loss",
+        "text": "A tank of 55 °C water in a 25 °C bathroom leaks heat through its foam all day, because heat flows downhill by itself. Insulation can slow that leak but never stop it.",
+        "box": "waterheaterclear"
+      },
+      {
+        "title": "Where a microwave's waste goes",
+        "text": "About two thirds of the power from the wall ends up in the food. The rest becomes heat in the magnetron and transformer, which the fan blows out into the kitchen.",
+        "box": "microwaveclear"
+      },
+      {
+        "title": "Ice in a drink",
+        "text": "Cold never flows into the drink: heat flows out of it into the ice. Melting each gram of ice soaks up 334 J, which is why ice cools a drink so well."
+      }
+    ]
+  },
+  "hook": "Heat flows downhill, energy always balances, no engine is perfect and absolute zero is out of reach. Watch hot and cold molecules share their speed, push a piston with a heater, run Carnot's perfect engine, pump heat uphill with an AC, and meet Maxwell's demon.",
+  "thumbText": "LAWS OF THERMODYNAMICS",
+  "field": "physics",
+  "minutes": 12,
+  "tags": [
+    "thermodynamics",
+    "laws of thermodynamics",
+    "zeroth law",
+    "first law",
+    "second law",
+    "third law",
+    "entropy",
+    "heat",
+    "temperature",
+    "Carnot",
+    "heat engine",
+    "heat pump",
+    "absolute zero",
+    "Maxwell's demon",
+    "physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Temperature is jiggling, and heat flows downhill",
+      "text": "Air molecules at 20 °C fly at about 500 m/s. Put a hot box against a cold one and the fast molecules share their energy until both reach one temperature: the zeroth law. Heat never flows back from cold to hot by itself: the second law."
+    },
+    {
+      "title": "The energy books: ΔU = Q − W",
+      "text": "Heat a gas under a piston and part of the heat raises its internal energy while the rest pushes the piston as work. For air at steady pressure, 2/7 of the heat becomes work. Lock the piston and all of it warms the gas."
+    },
+    {
+      "title": "No engine can be perfect",
+      "text": "Heat does work only while flowing from hot to cold, and some must always be dumped. Carnot's limit is 1 − T_cold ÷ T_hot in kelvin: 88% for a car's burning gas, but real engines reach about 30%."
+    },
+    {
+      "title": "Pumping heat uphill costs work",
+      "text": "An AC or fridge moves heat from cold to hot and pays in electricity. Heat out = heat taken + electricity. The smaller the temperature gap, the more heat each unit moves, up to Carnot's T_cold ÷ (T_hot − T_cold)."
+    },
+    {
+      "title": "Entropy, the demon and absolute zero",
+      "text": "Spread-out arrangements vastly outnumber tidy ones, so entropy grows. Maxwell's demon can sort molecules, but wiping its memory costs more entropy than it saves. And every cooling step leaves something: 0 K is never reached."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Temperature",
+      "def": "How fast molecules jiggle on average. In kelvin it starts at absolute zero, −273.15 °C."
+    },
+    {
+      "term": "Heat (Q)",
+      "def": "Energy that flows because of a temperature difference, by itself always from hotter to colder."
+    },
+    {
+      "term": "Work (W)",
+      "def": "Energy passed on by a push through a distance, like gas pushing a piston."
+    },
+    {
+      "term": "Internal energy (U)",
+      "def": "All the jiggling and spinning energy of the molecules inside something."
+    },
+    {
+      "term": "Thermal equilibrium",
+      "def": "Things in touch at the same temperature, with no more heat flowing between them."
+    },
+    {
+      "term": "Entropy (S)",
+      "def": "A count of the ways energy and molecules can be arranged, S = k ln W. Left alone, it only grows."
+    },
+    {
+      "term": "Carnot limit",
+      "def": "The best efficiency any heat engine can have: 1 − T_cold ÷ T_hot, in kelvin."
+    },
+    {
+      "term": "Absolute zero",
+      "def": "0 K, the coldest possible temperature. You can get ever closer but never reach it."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "thermoclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
